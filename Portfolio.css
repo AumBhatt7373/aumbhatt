@@ -1,0 +1,276 @@
+body
+{
+background-color: rgb(0, 0, 33);
+color: white;
+font-family: 'Poppins', sans-serif;
+}
+
+nav
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: rgb(21, 21, 66);
+}
+nav ul
+{
+  display: flex;
+  justify-content: center;
+
+
+}
+nav ul li
+{ 
+  list-style: none;
+  margin: 23px;
+}
+.navleft
+{
+  font-size: 1.5rem;
+}
+
+
+/*** Main***/
+
+.sec1
+{
+  display: flex;
+  justify-content: space-around;
+  height: 450px;
+}
+
+.leftsec1
+{
+ font-weight:500;
+ width: 60%;
+ font-size: 3rem; 
+ align-items: flex-start;
+ margin: 2em;
+ margin-left: 3em;
+ margin-right: 40px;
+}
+
+.rightsec1
+{
+  width: 450px;
+ background: url("logo.png");
+ background-size: cover;
+  margin-top: 40px;
+ margin-right: 100px;
+
+} 
+.purple
+{
+  color: rgb(153, 91, 211);
+  
+}
+
+.navright ul li a
+{
+  text-decoration: none;
+  color: white;
+}
+.navright ul li a:hover
+{
+  color: rgb(202, 153, 233);
+  font-size: 1.02em;
+}
+#element
+{
+  color: rgb(171, 69, 235);
+}
+
+/***                section                   2***/
+
+.line
+{
+  
+  width: 95%;
+  height: 3px;
+  background-color: rgb(198, 160, 212);
+ margin-left: 38px;
+ margin-top: 50px;
+ margin-bottom: 20px;
+}
+
+.career
+{
+  margin-top: 10px;
+  margin-left: 100px;
+}
+.career1
+{
+  color: rgb(185, 179, 179);
+  font-size: small;
+
+
+}
+.career2
+{
+  color: white;
+  font-size:xx-large;
+  font-weight: 700;
+}
+
+.experience
+{
+
+  height: 300px;
+  width: 80%;
+  display: flex;
+  justify-content:space-around ;
+  align-items:flex-start;
+  margin-left: 130px;
+  margin-top: 40px;
+
+}
+.box1
+{
+ 
+  height: 100px;
+  width: 200px;
+  color: rgb(205, 196, 196);
+ 
+  font-size: medium;
+
+}
+.box2
+{
+  color: rgb(205, 196, 196);
+ 
+  font-size: medium;
+  height: 100px;
+  width: 200px;
+
+
+}
+.box3
+{
+  color: rgb(205, 196, 196);
+ 
+  font-size: medium;
+  height: 100px;
+  width: 200px;
+ 
+
+}
+.box4
+{
+  color: rgb(205, 196, 196);
+  font-size: medium;
+  height: 100px;
+  width: 200px;
+ 
+
+}
+#title
+{
+   font-size: 30px;
+   color: rgb(175, 89, 241);
+   margin-bottom: 10px;
+
+}
+
+/***************               FOOTER               *******************/
+
+footer
+{
+   background-color: rgb(0, 0, 11);
+}
+.footerbox
+{
+ 
+}
+.footerline
+{
+  margin-top: 10px;
+  
+}
+
+.footerline1
+{
+  color: rgb(185, 179, 179);
+  font-size: small;
+  margin-top: 10px;
+  margin-left: 100px;
+
+
+}
+.footerline2
+{
+  color: white;
+  font-size:xx-large;
+  font-weight: 700;
+  margin-left: 100px;
+}
+.connectbox
+{
+   display: flex;
+   justify-content: space-around;
+   height: 80px;
+   margin-top: 20px
+  }
+ .instagram
+ {
+  background-image: url("instagram.png");
+  background-size: cover;
+  height: 50px;
+  width: 50px;
+  margin-top: 10px;
+ }
+ .linkedin
+ {
+   background-image: url("linkedin.png");
+   background-size: cover;
+   height: 50px;
+   width: 50px;
+   margin-top: 10px;
+ }
+ .snapchat
+ {
+   background-image: url("Snapchat.png");
+   background-size: cover;
+   height: 50px;
+   width: 50px;
+   margin-top: 10px;
+ }
+
+ .media
+ {
+  display: flex;
+  justify-content: space-around;
+  font-size: larger;
+  font-weight: 600;
+ }
+.a1 a
+{
+  text-decoration: none;
+  color: rgb(193, 2, 193);
+}
+.a2 a
+{
+  text-decoration: none;
+  color: rgb(52, 99, 194);
+}
+.a3 a
+{
+  text-decoration: none;
+  color: rgb(210, 253, 17);
+  
+}
+.a1 a:hover
+{
+  color: orange;
+  font-size: 1.02em;
+}
+.a2 a:hover
+{
+  color: orange;
+  font-size: 1.02em;
+}
+.a3 a:hover
+{
+  color: orange;
+  font-size: 1.02em;
+}
